@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="fill_parent"
+  android:background="@color/notepad_paper">
+  <!--<TextView-->
+    <!--android:id="@+id/rowDate"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:padding="10dp"-->
+    <!--android:scrollbars="vertical"-->
+    <!--android:fadingEdge="vertical"-->
+    <!--android:textColor="@color/notepad_text"-->
+    <!--android:layout_alignParentRight="true"-->
+  <!--/>-->
+  <!--<TextView-->
+    <!--android:id="@+id/row"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"  -->
+    <!--android:padding="10dp"-->
+    <!--android:scrollbars="vertical"-->
+    <!--android:fadingEdge="vertical"-->
+    <!--android:textColor="@color/notepad_text"-->
+    <!--android:layout_alignParentLeft="@+id/rowDate"-->
+  <!--/>-->
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:text="Large Text"
+      android:id="@+id/assignment_name"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:text="Small Text"
+      android:id="@+id/due_date"
+      android:layout_below="@+id/course"
+      android:layout_alignParentLeft="true" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:text="Medium Text"
+      android:id="@+id/course"
+      android:layout_below="@+id/assignment_name"
+      android:layout_alignParentLeft="true" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editText"
+      android:layout_below="@+id/due_date"
+      android:layout_alignParentLeft="true"
+      android:layout_marginTop="60dp" />
+</RelativeLayout>

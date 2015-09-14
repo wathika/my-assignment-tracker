@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/USER/Desktop/android/AssignmentTracker/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="notepad_lines">#FF0000FF</color>
+    <color name="notepad_margin">#90FF0000</color>
+    <color name="notepad_paper">#AAFFFF99</color>
+    <color name="notepad_text">#AA0000FF</color>
+    <!-- From: file:/C:/Users/USER/Desktop/android/AssignmentTracker/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="add">Add Assignment</string>
+    <string name="app_name">Assignment Tracker</string>
+    <string name="course">Course or Class</string>
+    <string name="duedate">Due Date</string>
+    <string name="hint_course">Course/Class</string>
+    <string name="hint_duedate">Due Date</string>
+    <string name="hint_notes">Notes</string>
+    <string name="hint_title">Assignment Name</string>
+    <string name="notes">Notes</string>
+    <string name="title">Assignment Name</string>
+    <string name="view">View Assignments</string>
+</resources>
