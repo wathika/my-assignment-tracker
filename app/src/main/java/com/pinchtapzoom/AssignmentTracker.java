@@ -1,14 +1,6 @@
 package com.pinchtapzoom;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-
 import android.app.Activity;
-import android.app.ListActivity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -20,10 +12,17 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
 public class AssignmentTracker extends Activity {
     /** Called when the activity is first created. */
 	
-	//DBAdapter db = new DBAdapter(this); 
+	//DBAdapter db = new DBAdapter(this);
 	
 	
     @Override
@@ -57,13 +56,13 @@ public class AssignmentTracker extends Activity {
 			e.printStackTrace();
 		}
                 
-        //DBAdapter db = new DBAdapter(this); 
+        //DBAdapter db = new DBAdapter(this);
 
         
         //---add an assignment---
         /*
-        db.open();        
-        long id = db.insertRecord("Hello World", "2/18/2012", "DPR 224", "First Android Project");        
+        db.open();
+        long id = db.insertRecord("Hello World", "2/18/2012", "DPR 224", "First Android Project");
         id = db.insertRecord("Workbook Exercises", "3/1/2012", "MAT 100", "Do odd numbers");
         db.close();
         */
