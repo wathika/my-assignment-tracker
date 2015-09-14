@@ -21,7 +21,7 @@ public class addassignment extends Activity {
 		setContentView(R.layout.add);
 		
 	}
-	public void addAssignment(View v)
+	public void addAssignment()
 	{
 		Log.d("test", "adding");
 	   	//get data from form
@@ -60,7 +60,9 @@ public class addassignment extends Activity {
 				new SimpleCursorAdapter(
 						this,    //context
 						R.layout.assignment_item,     //Row layout template
-						cursor                      //cursor
+						cursor,                      //cursor
+						fromFieldNames,				//from
+						toViewId					//to
 				);
 
 
