@@ -47,6 +47,10 @@ public class addassignment extends Activity {
 	private void populateListViewFromDB() {
 		Cursor cursor = db.getAllRecords();
 
+		//Allow activity to manage lifetime of the cursor
+		//DEPRECATED
+		startManagingCursor(cursor);
+
 
 		//set up mapping from cursor to view fields
 		String[] fromFieldNames = 	new String[]
@@ -60,7 +64,7 @@ public class addassignment extends Activity {
 				new SimpleCursorAdapter(
 						this,    //context
 						R.layout.assignment_item,     //Row layout template
-						cursor,                      //cursor
+						cursor,                      //cursor(set of db records to map)
 						fromFieldNames,				//from
 						toViewId					//to
 				);
